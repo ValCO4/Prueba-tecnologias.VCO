@@ -1,0 +1,40 @@
+html{Background-color:#dafefe}
+
+h1{
+  background: linear-gradient(to right, #7c8f2f, #2f7c8f, #2f438f);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family:"Castellar";
+  text-align:center;
+  margin-top:60px;
+}
+
+.circle-2{
+  background-color: #17560d;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: 90px;
+  left: 500px;
+  animation-name: mov;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mov{
+  from{
+    position: relative;
+    top: 90px;
+    left: 400px;
+    background-color: #470d56;
+  }
+  to{
+    position: relative;
+    top: 160px;
+    left: 600px;
+    background-color: #560d0d;
+  }
+}
